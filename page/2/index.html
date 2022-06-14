@@ -1,0 +1,678 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.png">
+  <link rel="icon" href="/img/favicon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="John Doe">
+  <meta name="keywords" content="">
+  
+    <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/page/2/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  <title>Hexo</title>
+
+  <link  rel="stylesheet" href="https://unpkg.com/bootstrap@4/dist/css/bootstrap.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_ba1fz6golrf.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+<!-- 自定义样式保持在最底部 -->
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.8.14","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"right","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"copy_btn":true,"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/local-search.xml"};
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+<meta name="generator" content="Hexo 6.2.0"></head>
+
+
+<body>
+  <header style="height: 100vh;">
+    <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>minho.</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="banner" id="banner" parallax=true
+         style="background: url('/img/me_2.png') no-repeat center center;
+           background-size: cover;">
+      <div class="full-bg-img">
+        <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+          <div class="page-header text-center fade-in-up">
+            <span class="h2" id="subtitle" title="观众没来齐 演唱会不结束.">
+              
+            </span>
+
+            
+          </div>
+
+          
+            <div class="scroll-down-bar">
+              <i class="iconfont icon-arrowdown"></i>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div class="py-5" id="board"
+          style=margin-top:0>
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/05/nOnelikeu/" target="_self">
+          <img src="/img/noonelikeu.png" srcset="/img/loading.gif" lazyload alt="🪐 nOnelikeu">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/05/nOnelikeu/" target="_self">
+          🪐 nOnelikeu
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/05/nOnelikeu/" target="_self">
+          
+          I won’t stay afraid， 我不会像这样一直害怕， I had this vision that has got me worried， 我仿佛已经看到这令我担心的画面了， ‘Cause everyone wants someone， 因为每个人都想有个能属于自己的另外一半， That’s one cliché that’s true， 这是陈词滥调但也确实说的对， Except
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-05 13:48" pubdate>
+              2022-05-05
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/05/allIwant/" target="_self">
+          <img src="/img/alliwant.png" srcset="/img/loading.gif" lazyload alt="🚪 allIwant">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/05/allIwant/" target="_self">
+          🚪 allIwant
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/05/allIwant/" target="_self">
+          
+          All I want is nothing more， 我不想要更多， to hear you knocking at my door， 仅想听到你叩门， ‘cause if i could see your face once more， 倘若能再见你一面， I could die as a happy man I’m sure， 即使死去却也幸福， when you said your la
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-05 12:47" pubdate>
+              2022-05-05
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/05/Ophelia/" target="_self">
+          <img src="/img/ophelia.png" srcset="/img/loading.gif" lazyload alt="📑 Ophelia">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/05/Ophelia/" target="_self">
+          📑 Ophelia
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/05/Ophelia/" target="_self">
+          
+          Ah, ah, when I was younger， 当我仍年轻的时候， I, I should’ve known better， 我的心智本应更加成熟， I, I got a new girlfriend here， 我在这里寻到新欢， Feels like he’s on top， 感觉自己小有所成， And you can’t see past my blindness， 你对我的盲目视
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-05 12:21" pubdate>
+              2022-05-05
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/05/Imissu/" target="_self">
+          <img src="/img/imisu.png" srcset="/img/loading.gif" lazyload alt="🧩 Imissu">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/05/Imissu/" target="_self">
+          🧩 Imissu
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/05/Imissu/" target="_self">
+          
+          这一次 你真的很介意 应该怎么爱可惜书里从没记载， 终于摸出来但岁月却不回来， 不回来 错过了春天可会再花开， 枯萎的温柔在最后会长回来， 我知 日后路上或没有更美的邂逅。
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-05 10:55" pubdate>
+              2022-05-05
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/04/missU/" target="_self">
+          <img src="/img/missu.png" srcset="/img/loading.gif" lazyload alt="🔖 missU">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/04/missU/" target="_self">
+          🔖 missU
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/04/missU/" target="_self">
+          
+          闻说你时常在下午 来这里寄信件， 何以我来回巡逻 偏仍然和你擦肩， 还仍然在各自宇宙 错过了春天， 只差一点点即可以再会面， 可惜偏偏刚刚擦过 十面埋伏过 孤单感更赤裸， 迟两秒搭上地下铁 能与你碰上么， 全城来撞你 但最后处处有险阻， 悔不当初轻轻放过 现在惩罚我 分手分错了么， 分开一千天 天天盼再会面， 只怕是你先找到我 但直行直过， 天都帮你去躲 躲开不见我
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-04 01:24" pubdate>
+              2022-05-04
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/02/lovBook/" target="_self">
+          <img src="/img/lovbook.png" srcset="/img/loading.gif" lazyload alt="📙 lovBook">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/02/lovBook/" target="_self">
+          📙 lovBook
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/02/lovBook/" target="_self">
+          
+          爱的样子像什么， 几亿万人都不懂， 你今天在做什么， 你是怎样回忆我， 很久很久之后会， 把来龙和去脉， 写下来， 我们会来读 爱这本书， 怎样才会幸福 爱谁清楚， 两颗心 在记录， 从热到冷 多辛苦， 哪个人先结束， 爱 好残酷， 到分开那一天， 我才真正的领悟， 你用多久忘了我， 读后心得给了谁
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-02 22:07" pubdate>
+              2022-05-02
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/05/01/Dreaming/" target="_self">
+          <img src="/img/dream.png" srcset="/img/loading.gif" lazyload alt="🌙 Dreaming">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/05/01/Dreaming/" target="_self">
+          🌙 Dreaming
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/05/01/Dreaming/" target="_self">
+          
+          나 외로워도 되 널 생각할 땐， 就算孤单也好，当我想起你， 미소가 나의 얼굴에 번져， 微笑就会在我的脸上蔓延， 오늘도 난 거친 세상속에 살지만， 在这样让人厌倦的世界里活着， 힘들어도 눈 감으면 니 모습뿐， 就算感到疲倦 闭上眼 我还是仿佛看到你的脸， 아직도 귓가에 들려오는 꿈들이， 耳边听见的梦境 正来到我的身旁， 나의 곁에서 널 향해 가고 있잖아， 正朝着你而前进，
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-05-01 09:57" pubdate>
+              2022-05-01
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/27/inRain/" target="_self">
+          <img src="/img/inrain.png" srcset="/img/loading.gif" lazyload alt="☔ inRain">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/27/inRain/" target="_self">
+          ☔ inRain
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/27/inRain/" target="_self">
+          
+          通り雨 傘の下， 恰逢骤雨 在雨伞下， あの季節に まだ焦がれている， 那个季节里 我心仍满怀思慕， 何も手につかずに 上の空の日々， 一无所获 心不在焉的每日之间， Nothing but you’re the part of me， 唯独你成为我生命中难以割舍的部分， What a good thing we lose， 多么幸运 我们错失彼此， What a bad thing we kn
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-27 02:10" pubdate>
+              2022-04-27
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/21/beHapy/" target="_self">
+          <img src="/img/behapy.png" srcset="/img/loading.gif" lazyload alt="👾 beHapy">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/21/beHapy/" target="_self">
+          👾 beHapy
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/21/beHapy/" target="_self">
+          
+          情侣数字我屈指一算大概知， 奇怪却是每恋一次， 震撼总逐渐变得越浅， 令人动心只得那次， 有没捱坏了身子， 会为哪位披嫁衣， 你有否挂念当天这丑小子， 现时大了那种心跳难重演， 极灿烂时光， 一去难再遇上一次， 失去的往事， 想再遇确实靠天意
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-21 23:28" pubdate>
+              2022-04-21
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+  <div class="row mx-auto index-card">
+    
+    
+      <div class="col-12 col-md-4 m-auto index-img">
+        <a href="/2022/04/12/Imsory/" target="_self">
+          <img src="/img/sory.png" srcset="/img/loading.gif" lazyload alt="🎠 Imsory">
+        </a>
+      </div>
+    
+    <article class="col-12 col-md-8 mx-auto index-info">
+      <h1 class="index-header">
+        
+        <a href="/2022/04/12/Imsory/" target="_self">
+          🎠 Imsory
+        </a>
+      </h1>
+
+      <p class="index-excerpt">
+        <a href="/2022/04/12/Imsory/" target="_self">
+          
+          我们爱谁 我们陶醉， 还看错了现在身边是谁， 我曾以为 我却误会， 一转身就能擦干你的汗水， 给我一百万岁， 也许都不能看着你沉睡， 错过了再见你的机会， 给我药水 回到梦中的最美丽的盛会， 责怪我颓废， 你会不会
+        </a>
+      </p>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>
+            <time datetime="2022-04-12 01:27" pubdate>
+              2022-04-12
+            </time>
+          </div>
+        
+        
+        
+      </div>
+    </article>
+  </div>
+
+
+
+  <nav aria-label="navigation">
+    <span class="pagination" id="pagination">
+      <a class="extend prev" rel="prev" href="/"><i class="iconfont icon-arrowleft"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+    </span>
+  </nav>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v"
+                 for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+  </main>
+
+  <footer class="text-center mt-5 py-3">
+  <div class="music-player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=455634241&auto=1&height=66"></iframe>
+  </div>
+  <div class="footer-content">
+     <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+  </div>
+  
+
+  
+
+  
+</footer>
+
+
+  <!-- SCRIPTS -->
+  
+  <script  src="https://unpkg.com/nprogress@0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://unpkg.com/nprogress@0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://unpkg.com/jquery@3/dist/jquery.min.js" ></script>
+<script  src="https://unpkg.com/bootstrap@4/dist/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+<!-- Plugins -->
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script  src="https://unpkg.com/typed.js@2/lib/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var title = document.getElementById('subtitle').title;
+      
+        typing(title);
+      
+    })(window, document);
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 主题的启动项 保持在最底部 -->
+<script  src="/js/boot.js" ></script>
+
+
+</body>
+</html>
