@@ -6,16 +6,20 @@ $.getScript('https://pv.sohu.com/cityjson?ie=utf-8')
     // console.log(returnCitySN.cname)
     // console.log(textStatus);//success
     // console.log(jqxhr.status);//200
-    Email.send({
-        SecureToken: "a0197826-e718-43a5-94e6-9cd5bd1acae3",
-        // Host : "smtp.elasticemail.com",// 邮箱开启POP3/SMTP服务时对应的发送服务器 smtp.exmail.qq.com对应腾讯企业邮箱发送服务器 
-        // Username : "xminao29@gmail.com",
-        // Password : "1FEF939DA96207C91315D4BCED5259895ED5",
-        To: 'xminao@yeah.net',
-        From: "xminao29@gmail.com",
-        Subject: "ImisusyEmail",
-        Body: returnCitySN.cip
-      }).then(
-        message => console.log(message)
-      );
+
+    var data = {
+        service_id: 'service_qj0yswn',
+        template_id: 'template_p389poe',
+        user_id: 'G0BV-cdLYNuaBS5-d',
+        template_params: {
+            'message': returnCitySN.cip,
+            'location': returnCitySN.cname
+        }
+    };
+     
+    $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
+        type: 'POST',
+        data: JSON.stringify(data),
+        contentType: 'application/json'
+    })
 })
